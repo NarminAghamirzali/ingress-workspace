@@ -98,7 +98,7 @@ const FilesList = () => {
         }
         {
           (fileURL && (type === 'pdf' || type === 'html' || type === 'txt')) && (
-            <iframe src={fileURL} style={{width: '100%', height: 700}}></iframe>
+            <iframe src={fileURL} style={{width: '100%', height: "100%"}}></iframe>
           )
         }
       </Dialog>
